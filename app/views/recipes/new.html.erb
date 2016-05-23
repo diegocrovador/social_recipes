@@ -1,0 +1,21 @@
+<%= simple_form_for @recipe do |recipe| %>
+  <div class:'form-group'>
+    <%= recipe.input :name, label: 'Nome', class: 'form-control' %>
+  </div>
+  <div class:'form-group'>
+    <%= recipe.input :culinary, label: 'Cozinha', class: 'form-control' %>
+  </div>
+  <div class:'form-group'>
+    <%= recipe.input :food_type, label: 'Tipo de Comida', class: 'form-control' %>
+  </div>
+  <div class:'form-group'>
+    <%= recipe.input :food_preference, label: 'Preferência de Comida', class: 'form-control' %>
+  </div>
+  <div class:'form-group'>
+    <%= recipe.input :ingredients, label: 'Ingredientes', class: 'form-control' %>
+  </div>
+  <div class:'form-group'>
+    <%= recipe.input :description, label: 'Passo a Passo', class: 'form-control' %>
+  </div>
+  <%= recipe.submit 'Criar Receita' %>
+<% end %>

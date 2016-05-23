@@ -1,0 +1,49 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/diego.crovador/Desktop/workspace/social_recipes/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/diego.crovador/Desktop/workspace/social_recipes/app/models/recipe.rb": [
+        1,
+        null
+      ],
+      "/Users/diego.crovador/Desktop/workspace/social_recipes/app/controllers/recipes_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/diego.crovador/Desktop/workspace/social_recipes/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1464032867
+  }
+}
