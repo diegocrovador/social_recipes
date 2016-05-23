@@ -1,0 +1,13 @@
+<h1>Social Recipes</h1>
+
+  <% @recipes.each do |recipe| %>
+    <dl>
+      <h3><dd><%= link_to recipe.name, recipe %></h3></dd>
+      <dt>Preferência de Comida</dt>
+      <dd><%= recipe.food_preference %></dd>
+      <dt>Tipo de Comida</dt>
+      <dd><%= recipe.food_type %></dd>
+      <dt>Cozinha</dt>
+      <dd><%= recipe.culinary %></dd>
+    </dl>
+  <% end %>
