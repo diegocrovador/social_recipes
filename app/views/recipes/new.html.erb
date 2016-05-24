@@ -6,7 +6,7 @@
     <%= recipe.input :culinary_id, collection: @culinary, label: 'Cozinha', class: 'form-control' %>
   </div>
   <div class:'form-group'>
-    <%= recipe.input :food_type, label: 'Tipo de Comida', class: 'form-control' %>
+    <%= recipe.input :food_type_id, collection: @food_type, label: 'Tipo de Comida', class: 'form-control' %>
   </div>
   <div class:'form-group'>
     <%= recipe.input :food_preference, label: 'Preferência de Comida', class: 'form-control' %>

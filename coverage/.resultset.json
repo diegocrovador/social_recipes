@@ -10,7 +10,13 @@
         1,
         null
       ],
+      "/Users/diego.crovador/Desktop/workspace/social_recipes/app/models/food_type.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/diego.crovador/Desktop/workspace/social_recipes/app/models/recipe.rb": [
+        1,
         1,
         1,
         null
@@ -18,6 +24,7 @@
       "/Users/diego.crovador/Desktop/workspace/social_recipes/app/controllers/recipes_controller.rb": [
         1,
         1,
+        2,
         2,
         2,
         null,
@@ -52,6 +59,6 @@
         null
       ]
     },
-    "timestamp": 1464112998
+    "timestamp": 1464119748
   }
 }
