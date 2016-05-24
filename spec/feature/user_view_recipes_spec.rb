@@ -9,6 +9,6 @@ feature 'user view recipes' do
     expect(page).to have_content recipes[0].name
     expect(page).to have_content recipes[0].food_preference
     expect(page).to have_content recipes[1].food_type
-    expect(page).to have_content recipes[2].culinary
+    expect(page).to have_content recipes[2].culinary.name
   end
 end
