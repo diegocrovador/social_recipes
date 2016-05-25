@@ -1,6 +1,7 @@
 <h1>Social Recipes</h1>
 
   <% @recipes.each do |recipe| %>
+  <div id="recipe-<%= recipe.id %>" class="recipe">
     <dl>
       <h3><dd><%= link_to recipe.name, recipe %></h3></dd>
       <dt>Preferência de Comida</dt>
@@ -10,4 +11,5 @@
       <dt>Cozinha</dt>
       <dd><%= recipe.culinary.name %></dd>
     </dl>
+  </div>
   <% end %>
