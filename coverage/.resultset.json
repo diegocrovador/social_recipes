@@ -8,15 +8,21 @@
       "/Users/diego.crovador/Desktop/workspace/social_recipes/app/models/culinary.rb": [
         1,
         1,
+        null,
+        1,
         null
       ],
       "/Users/diego.crovador/Desktop/workspace/social_recipes/app/models/food_type.rb": [
         1,
         1,
+        null,
+        1,
         null
       ],
       "/Users/diego.crovador/Desktop/workspace/social_recipes/app/models/food_preference.rb": [
         1,
+        1,
+        null,
         1,
         null
       ],
@@ -25,24 +31,33 @@
         1,
         1,
         1,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/diego.crovador/Desktop/workspace/social_recipes/app/controllers/recipes_controller.rb": [
         1,
         1,
-        2,
-        2,
-        2,
-        2,
-        null,
-        null,
-        1,
-        1,
-        1,
+        3,
+        3,
+        3,
+        3,
         null,
         null,
         1,
         2,
+        2,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
         null,
         null,
         1,
@@ -53,7 +68,7 @@
         null,
         1,
         null,
-        1,
+        2,
         null,
         null,
         null
@@ -66,6 +81,6 @@
         null
       ]
     },
-    "timestamp": 1464195120
+    "timestamp": 1464198158
   }
 }

@@ -8,7 +8,12 @@ class RecipesController < ApplicationController
 
   def create
     @recipe = Recipe.create(recipe_params)
-    redirect_to @recipe
+    if @recipe.save
+      redirect_to @recipe
+    else
+      flash[:error] = 'Preencha todos os campos.'
+      render :new
+    end
   end
 
   def index

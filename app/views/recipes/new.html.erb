@@ -1,3 +1,4 @@
+<strong><%= flash[:error] %></strong>
 <%= simple_form_for @recipe do |recipe| %>
   <div class:'form-group'>
     <%= recipe.input :name, label: 'Nome', class: 'form-control' %>

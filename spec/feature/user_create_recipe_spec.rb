@@ -25,4 +25,12 @@ feature 'user create recipe' do
     expect(page).to have_content recipe.ingredients
     expect(page).to have_content recipe.description
   end
+
+  scenario 'fail' do
+    visit new_recipe_path
+
+    click_on 'Criar Receita'
+
+    expect(page).to have_content('Preencha todos os campos.')
+  end
 end
