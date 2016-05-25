@@ -31,6 +31,6 @@ feature 'user create recipe' do
 
     click_on 'Criar Receita'
 
-    expect(page).to have_content('Preencha todos os campos.')
+    expect(page).to have_content('Por favor revise os problemas abaixo:')
   end
 end

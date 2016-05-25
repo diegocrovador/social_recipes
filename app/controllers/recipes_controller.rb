@@ -11,7 +11,6 @@ class RecipesController < ApplicationController
     if @recipe.save
       redirect_to @recipe
     else
-      flash[:error] = 'Preencha todos os campos.'
       render :new
     end
   end
