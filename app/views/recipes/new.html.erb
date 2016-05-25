@@ -9,7 +9,7 @@
     <%= recipe.input :food_type_id, collection: @food_type, label: 'Tipo de Comida', class: 'form-control' %>
   </div>
   <div class:'form-group'>
-    <%= recipe.input :food_preference, label: 'Preferência de Comida', class: 'form-control' %>
+    <%= recipe.input :food_preference_id, collection: @food_preference, label: 'Preferência de Comida', class: 'form-control' %>
   </div>
   <div class:'form-group'>
     <%= recipe.input :ingredients, label: 'Ingredientes', class: 'form-control' %>
