@@ -20,7 +20,7 @@ feature 'user view recipes' do
 
     recipes.each do |recipe|
       within("#recipe-#{recipe.id}") do
-        expect(page).to have_content "Lasanha"
+        expect(page).to have_content 'Lasanha'
       end
     end
     expect(page).to_not have_content recipe_not_found.name

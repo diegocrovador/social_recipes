@@ -1,0 +1,13 @@
+<% @recipes.each do |recipe| %>
+  <div id="recipe-<%= recipe.id %>" class="recipe">
+    <dl>
+      <h3><dd><%= link_to recipe.name, recipe %></h3></dd>
+      <dt>Preferência de Comida</dt>
+      <dd><%= recipe.food_preference.name %></dd>
+      <dt>Tipo de Comida</dt>
+      <dd><%= recipe.food_type.name %></dd>
+      <dt>Cozinha</dt>
+      <dd><%= recipe.culinary.name %></dd>
+    </dl>
+  </div>
+  <% end %>

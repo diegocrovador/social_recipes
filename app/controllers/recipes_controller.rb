@@ -1,4 +1,6 @@
 class RecipesController < ApplicationController
+  before_action :set_categories
+
   def new
     @recipe = Recipe.new
     @culinary = Culinary.all
@@ -17,6 +19,13 @@ class RecipesController < ApplicationController
 
   def index
     @recipes = Recipe.recents
+    @culinaries = Culinary.all
+
+    if params[:category]
+      @recipes = Recipe.where(params[:category].to_sym => params[:category_id])
+    end
+
+    render :recipes_by_category if params[:category]
   end
 
   def show
@@ -24,6 +33,12 @@ class RecipesController < ApplicationController
   end
 
   private
+
+  def set_categories
+    @culinaries = Culinary.all
+    @food_types = FoodType.all
+    @food_preferences = FoodPreference.all
+  end
 
   def recipe_params
     params.require(:recipe)
