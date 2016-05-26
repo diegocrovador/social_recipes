@@ -1,12 +1,12 @@
-<h3>Cozinha</h3>
+<p>Cozinha</p>
 <% @culinaries.each do |culinary| %>
   <%= link_to culinary.name, recipes_by_category_path(culinary.class.to_s.underscore, culinary.id) %>
 <% end %>
-
+<p>Tipo de Comida</p>
 <% @food_types.each do |food_type| %>
   <%= link_to food_type.name, recipes_by_category_path(food_type.class.to_s.underscore, food_type.id) %>
 <% end %>
-
+<p>Preferência de Comida</p>
 <% @food_preferences.each do |food_preference| %>
   <%= link_to food_preference.name, recipes_by_category_path(food_preference.class.to_s.underscore, food_preference.id) %>
 <% end %>
